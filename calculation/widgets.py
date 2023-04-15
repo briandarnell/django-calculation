@@ -74,7 +74,7 @@ class AvgInput(SummaryInput):
 
 class CountInput(SummaryInput):
     def __init__(self, field, context=GLOBAL, attrs=None):
-        super().__init__(AVG, field, context, attrs)
+        super().__init__(COUNT, field, context, attrs)
 
 
 class MaxInput(SummaryInput):
