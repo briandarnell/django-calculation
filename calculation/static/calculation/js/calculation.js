@@ -327,6 +327,7 @@
                         element.addEventListener("change", handleBlurCb);
                     } else {
                         element.addEventListener("blur", handleBlurCb);
+                        element.addEventListener("keyup", handleBlurCb);
                     }
                 }
                 if (mode === 'remove') {
@@ -334,6 +335,7 @@
                         element.removeEventListener("change", handleBlurCb);
                     } else {
                         element.removeEventListener("blur", handleBlurCb);
+                        element.removeEventListener("keyup", handleBlurCb);
                     }
 
                 }
