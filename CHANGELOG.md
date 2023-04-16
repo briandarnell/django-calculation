@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.0.1 (2023-04-16)
+* Bugfix for CountInput
+* Calculations now update on page load
+* Calculations now update on Keyup event
+
 ## 1.0.0 (2022-06-07)
 * Add support for Django 4.0.
 * Fix Uncaught TypeError: value.element is null (#5).
